@@ -1,0 +1,30 @@
+body {
+    background: radial-gradient(circle at 100%,rebeccapurple,black);
+    color: gold;
+}
+
+.groovy{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#loginTitleText{
+    color:cornflowerblue;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+#loginDivText{
+    color:cornflowerblue;
+    font-weight: bolder;
+    text-align: center;
+}
+.blink_me {
+    animation: blinker 3.5 s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

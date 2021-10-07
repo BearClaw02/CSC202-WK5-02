@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<!--Matthew Nispel-->
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="code.js"> </script>
+    <title>
+        Matthew Nispels CSC102 Webpage
+    </title>
+    <script>
+        var wins = 0;
+        var loss = 0;
+        var tie = 0;
+    </script>
+    
+</head>
+
+<body>
+    <img src="UATspaceLogo-1 (1).jpg">
+    <h1>UAT Space Program </h1>
+    <script> document.write("This is a test of the document.write function.");</script>
+    <p class="groovy"> This is a test of the paragragh tags</p>
+    <br>
+    <button onclick="btrBlastOff();"> Start </button>
+    <button> Stop </button>
+    <br>
+    <br>
+    <p id="countDownTimer">Starting countdown...</p>
+    <button onclick="playCraps();"> Play Craps </button>
+    <p id="die1Res">Waiting on die 1...</p>
+    <p id="die2Res">Waitig on die 2...</p>
+    <p id="sumRes"> Waiting on the sum...</p>
+    <p id="finalRes"> Waiting on final result...</p>
+    <p>Wins are:
+    <div id="winRes">0</div>
+    </p>
+    <p>Losses are:
+    <div id="lossRes">0</div>
+    </p>
+    <p>Ties Are:
+    <div id="tieRes">0</div>
+    </p>
+</body>
+
+</html>
